@@ -1,0 +1,42 @@
+Sub xxx()
+    
+    Dim oSl         As Slide
+    
+    Dim shp         As Shape 
+    Dim str         As String
+    Dim lngTemp     As Long
+    Dim lngCount    As Long
+    On Error Resume Next
+    
+    For Each oSl In ActivePresentation.Slides
+        
+        oSl.Shapes(1).Delete 'removes main heading from every slide
+        oSl.Shapes.Title.Delete 'after deleting heading it then remove empty place-holder which says click to add title.
+        oSl.Shapes(1).TextFrame.TextRange.Paragraphs(2).Lines(1, 1).Text = "" 'removes second line from paragraph two  in (text-box) 
+        
+        str = oSl.Shapes(1).TextFrame.TextRange.Paragraphs.Lines(2, 1).Text 'copies first line of second para from first text-frame
+        
+        oSl.Shapes.AddTitle.TextFrame.TextRange.Text = str 'replace title  with str copied earlier
+        
+        For lngCount = oSl.Shapes.Count To 1 Step -1 ' loop over all slides selecting images at top left and top bottom corner of slide
+            With oSl.Shapes(lngCount)
+                
+                If .Type = msoPicture Then
+                    
+                    If .Top >= 0 And .Top < 60 And .Left >= 400 Then 'remove icons from top right corner'
+                        .Delete
+                    End Id
+                    
+                    If .Left >= 400 Then '400 size can change depending upon screen and pixel size, make sure you to use screen pixel estimate tool
+                        
+                        .Delete
+                        
+                    End If
+                    
+                End If
+            End With
+        Next
+        
+    Next
+End Sub
+
