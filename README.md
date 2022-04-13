@@ -60,7 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot](https://github.com/asadzz/Powerpoint-VBscript-hack/blob/main/images/ppt%20hack.jpg)
+![Product Name Screen Shot](https://github.com/asadzz/Powerpoint-VBscript-hack/blob/main/images/ppt%20hack.jpg)
 
 This simple yet powerful VBscript method can be used to progamatically change layout and content of slides. Do give it a try. I have put comments in code for easy undestanding
 
@@ -154,6 +154,14 @@ Project Link: [https://github.com/asadzz/Powerpoint-VBscript-hack](https://githu
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [MSDN](https://docs.microsoft.com/en-us/office/vba/api/overview/powerpoint)
+<div align="left">
+  <a href="https://github.com/asadzz/Powerpoint-VBscript-hack/blob/main/">
+    <img src="images/ppt%20hack.jpg" alt="Logo" width="80" height="80">
+  </a>
+  </div>
+
+Taken from [website](https://www.wallstreetprep.com/knowledge/powerpoint-hacks-for-investment-banking-and-consulting/)
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
