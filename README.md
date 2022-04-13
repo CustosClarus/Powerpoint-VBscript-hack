@@ -95,16 +95,15 @@ The best place to start is to explore VB functions in MS-powerpoint using MSDN [
 ## Usage
 
 
-
 ``  oSl.Shapes(1).TextFrame.TextRange.Paragraphs(1).Lines(1, 1).Text = "" ``
-where ``os1`` is object of ``ActivePresentation.Slides``. This line will 
-
-_For more examples, please refer to the [Documentation](https://docs.microsoft.com/en-us/office/vba/api/overview/powerpoint)_
+where ``os1`` is object of ``ActivePresentation.Slides``. 
 
 ![image](https://user-images.githubusercontent.com/7777434/163054864-04800ac0-c6dc-4bc3-a6f1-ee21bc818cf0.png)
+
 shape(1) will select ``main-heading`` and ``paragraph`` represent orders (1,2)and ``Lines`` be donate lines of paragraph. The above line will thus delete the **main-heading**. The ``paragraph`` is more relevant in text-box if you want to change the first-para heading you will select "paragraph(2).".
 
 Please see the code for further comments.
+_For more examples, please refer to the [Documentation](https://docs.microsoft.com/en-us/office/vba/api/overview/powerpoint)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
