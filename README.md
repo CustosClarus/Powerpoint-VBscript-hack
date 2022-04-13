@@ -153,7 +153,7 @@ Project Link: [https://github.com/asadzz/Powerpoint-VBscript-hack](https://githu
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
+* [MSDN](https://docs.microsoft.com/en-us/office/vba/api/overview/powerpoint)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
